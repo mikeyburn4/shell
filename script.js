@@ -47,3 +47,4 @@ document.getElementById("cmd-input").addEventListener("keydown", function(event)
         output.scrollTop = output.scrollHeight; // Auto scroll to bottom
     }
 });
+//hey hey = this is a new comment
