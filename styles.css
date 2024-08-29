@@ -1,0 +1,63 @@
+/* General body styles */
+body {
+    background-color: #1e1e1e; /* Dark background */
+    color: #ffffff; /* White text */
+    font-family: 'Cascadia Code', 'Consolas', 'Courier New', monospace; /* Terminal-like font */
+    font-size: 14px; /* Font size */
+    line-height: 1.5; /* Line height */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Terminal window styles */
+.terminal {
+    background-color: #1e1e1e; /* Dark background */
+    border: 1px solid #333333; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside the terminal */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    overflow-y: auto; /* Scrollable content */
+    height: 400px; /* Fixed height for the terminal */
+}
+
+/* Input styles */
+.input {
+    color: #00ff00; /* Green text for input */
+    font-family: 'Cascadia Code', 'Consolas', 'Courier New', monospace; /* Terminal-like font */
+}
+
+/* Command prompt styles */
+.prompt {
+    color: #ffffff; /* White text for prompt */
+}
+
+/* Output styles */
+.output {
+    color: #ffffff; /* White text for output */
+}
+
+/* Cursor styles */
+.cursor {
+    display: inline-block;
+    width: 10px; /* Width of the cursor */
+    height: 20px; /* Height of the cursor */
+    background-color: #00ff00; /* Green cursor */
+    animation: blink 1s step-end infinite; /* Blinking effect */
+}
+
+/* Blinking cursor animation */
+@keyframes blink {
+    50% {
+        background-color: transparent; /* Cursor disappears */
+    }
+}
+
+/* Link styles */
+a {
+    color: #1e90ff; /* Blue links */
+    text-decoration: none; /* No underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
